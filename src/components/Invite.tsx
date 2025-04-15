@@ -79,7 +79,9 @@ const Invite = () => {
             className="mt-16 flex justify-center"
           >
             <a
-              href="#"
+              href="https://tally.so/r/3qv41G"
+              target="_blank"
+              rel="noopener noreferrer"
               className={cn(
                 "group inline-flex items-center gap-x-2 rounded-full bg-purple-600 px-8 py-4 text-base font-semibold text-white shadow-sm",
                 "hover:bg-purple-500 focus-visible:outline focus-visible:outline-2",
