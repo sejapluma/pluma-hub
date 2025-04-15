@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pluma Hub - Sistema para Psicólogas",
-  description: "Um sistema completo no Notion pra organizar prontuários, planilha financeira, agenda e documentos para psicólogas.",
+  title: "Pluma - Comunidade para Psicólogas Empreendedoras",
+  description: "Uma comunidade acolhedora para psicólogas empreendedoras que buscam crescimento e apoio mútuo através de workshops, networking e ferramentas exclusivas.",
 };
 
 export default function RootLayout({
