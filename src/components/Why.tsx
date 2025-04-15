@@ -83,13 +83,13 @@ const Why = () => {
                 transition={{ duration: 0.5, delay: 0.1 * index }}
                 className="flex flex-col"
               >
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600">
-                    <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                <dt className="text-xl font-semibold leading-8 text-gray-900">
+                  <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-purple-600">
+                    <feature.icon className="h-7 w-7 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                <dd className="mt-2 flex flex-auto flex-col text-xl leading-8 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                 </dd>
               </motion.div>
