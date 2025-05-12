@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     siteName: "Pluma",
     images: [
       {
-        url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💜</text></svg>",
-        width: 800,
-        height: 800,
+        url: "/images/og-image.svg",
+        width: 1200,
+        height: 630,
         alt: "Pluma - Comunidade para Psicólogas Empreendedoras"
       }
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pluma - Comunidade para Psicólogas Empreendedoras",
     description: "Uma comunidade acolhedora para psicólogas empreendedoras que buscam crescimento e apoio mútuo através de workshops, networking e ferramentas exclusivas.",
-    images: ["data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💜</text></svg>"]
+    images: ["/images/og-image.svg"]
   }
 };
 
@@ -58,6 +58,9 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-TWPCXLCX');
           `}
         </Script>
+        <meta property="og:image:type" content="image/svg+xml" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </head>
       <body className={inter.className}>
         <noscript>
